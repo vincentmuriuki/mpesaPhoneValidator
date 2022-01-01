@@ -19,7 +19,7 @@
 ## Install
 
 ```sh
-yarn install
+npm install
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ console.log(phoneValidator('254707656667'))
 ## Run tests
 
 ```sh
-yarn test
+npm run test
 ```
 
 ## Author
