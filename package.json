@@ -1,0 +1,27 @@
+{
+  "name": "@vincentmuriuki/mpesaphonevalidator",
+  "version": "1.0.0",
+  "description": "A package that validates phone numbers you pass to the mpesa API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "release": "standard-version --tag-prefix="
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentmuriuki/mpesaPhoneValidator.git"
+  },
+  "keywords": [
+    "mpesa"
+  ],
+  "author": "vincentmuriuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincentmuriuki/mpesaPhoneValidator/issues"
+  },
+  "homepage": "https://github.com/vincentmuriuki/mpesaPhoneValidator#readme",
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "standard-version": "^9.3.2"
+  }
+}
