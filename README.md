@@ -25,7 +25,7 @@ npm install
 ## Usage
 
 ```sh
-const phoneValidator = require('./index');
+const phoneValidator = require('@vincentmuriuki/mpesaphonevalidator');
 
 console.log(phoneValidator('254707656667'))
 ```
