@@ -58,7 +58,7 @@ jobs:
       - name: Push tags
         run: git push --follow-tags origin main
         env:
-          GITHUB_TOKEN: ${ GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.VINCENT_TOKEN }}
 
   publish-npm:
     needs: bump
