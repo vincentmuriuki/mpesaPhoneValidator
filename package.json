@@ -15,10 +15,8 @@
     "mpesa",
     "mpesaphonevalidator"
   ],
-  {
-    "publishConfig": {
-      "access": "public"
-    }
+  "publishConfig": {
+    "access": "public"
   },
   "author": "vincentmuriuki",
   "license": "MIT",
