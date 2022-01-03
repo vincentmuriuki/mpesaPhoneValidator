@@ -4,9 +4,11 @@
 name: Node.js Package
 
 on:
-  workflow_dispatch:
-  release:
-    types: [published]
+  push:
+    branches: [ main ]
+  # workflow_dispatch:
+  # release:
+  #   types: [published]
 
 jobs:
   build:
@@ -49,8 +51,8 @@ jobs:
           node-version: 12
       - name: set git user
         run: |
-          git config --global user.name ${{ secrets.VINCENT_ACTOR}}
-          git config --global user.email "${{ secrets.VINCENT_ACTOR_EMAIL }}"
+          git config --global user.name ${GITHUB_ACTOR}
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         env:
           GITHUB_TOKEN: ${{ secrets.VINCENT_TOKEN }}
       - name: Bump semantic node-version
