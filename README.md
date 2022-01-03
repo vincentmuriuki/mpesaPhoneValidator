@@ -20,6 +20,8 @@
 
 ```sh
 npm install @muriukivincent/mpesaphonevalidator
+or
+yarn add @muriukivincent/mpesaphonevalidator
 ```
 
 ## Usage
