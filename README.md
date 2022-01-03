@@ -1,4 +1,4 @@
-<h1 align="center">@vincentmuriuki/mpesaphonevalidator 👋</h1>
+<h1 align="center">@muriukivincent/mpesaphonevalidator 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/vincentmuriuki/mpesaPhoneValidator#readme" target="_blank">
@@ -25,7 +25,7 @@ npm install
 ## Usage
 
 ```sh
-const phoneValidator = require('@vincentmuriuki/mpesaphonevalidator');
+const phoneValidator = require('@muriukivincent/mpesaphonevalidator');
 
 console.log(phoneValidator('254707656667'))
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "@vincentmuriuki/mpesaphonevalidator",
+  "name": "@muriukivincent/mpesaphonevalidator",
   "version": "1.0.7",
   "description": "A package that validates phone numbers you pass to the mpesa API",
   "main": "index.js",
