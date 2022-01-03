@@ -12,8 +12,14 @@
     "url": "git+https://github.com/vincentmuriuki/mpesaPhoneValidator.git"
   },
   "keywords": [
-    "mpesa"
+    "mpesa",
+    "mpesaphonevalidator"
   ],
+  {
+    "publishConfig": {
+      "access": "public"
+    }
+  },
   "author": "vincentmuriuki",
   "license": "MIT",
   "bugs": {
