@@ -1,6 +1,6 @@
 <h1 align="center">@muriukivincent/mpesaphonevalidator 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.13-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/vincentmuriuki/mpesaPhoneValidator#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -8,7 +8,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/vincentmuriuki/mpesaPhoneValidator/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/vincentmuriuki/@vincentmuriuki/mpesaphonevalidator" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
 
@@ -25,7 +25,7 @@ npm install
 ## Usage
 
 ```sh
-const phoneValidator = require('@muriukivincent/mpesaphonevalidator');
+const phoneValidator = require('@muriukivincent/mpesaphonevalidator')
 
 console.log(phoneValidator('254707656667'))
 ```
