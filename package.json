@@ -1,6 +1,6 @@
 {
   "name": "@vincentmuriuki/mpesaphonevalidator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A package that validates phone numbers you pass to the mpesa API",
   "main": "index.js",
   "scripts": {
