@@ -1,7 +1,7 @@
 /**
  * @param {*} phone
  */
-const phoneValidator = (phone) => {
+function phoneValidator(phone) {
   const saf = new RegExp(
     '^(?:254|\\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-9])|(?:6[8-9])|(?:5[7-9])|(?:4[5-6])|(?:4[8])|(4[0-3]))[0-9]{6})$'
   );
@@ -24,6 +24,6 @@ const phoneValidator = (phone) => {
       return phone;
     }
   }
-};
+}
 
 module.exports = (phone) => phoneValidator(phone);
